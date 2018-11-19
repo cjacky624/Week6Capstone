@@ -1,0 +1,10 @@
+﻿
+<h2>AddTask</h2>
+
+<form name="AddTask" action="/Home/SaveNewTask" method="post">
+    <label class="label">TaskID</label><input type="number" class="form-control" name="TaskID" />
+    <label class="label">Description</label><input type="text" class="form-control" name="Description" />
+    <label class="label">Due Date</label><input type="date" class="form-control" name="DueDate" />
+    <label class="label">Task Completed</label><input type="checkbox" class="form-control" name="TaskCompleted" /><br /><br />
+    <input type="submit" value="Add Task" />
+</form>
